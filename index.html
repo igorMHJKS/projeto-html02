@@ -1,60 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Site</title>
-</head>
-<body>
-    <nav>
+  </head>
+  <body>
+    <!-- Cabeçalho. Menu de navegação e outras informações -->
+    <header>
+      <!-- Conteúdo de navegação -->
+      <nav>
         <!-- Lista ordenada -->
         <ol type="A">
           <!-- List item = Item da lista -->
-          <li>Sobre</li>
-          <li>contato</li>
-          <li>Portifólio</li>
+          <li><a href="https://www.google.com.br/">google</a> </li>
+          <li><a href="igor_nunes13@icloud.com">email</a></li>
+          <li><a href="https://github.com/igorMHJKS">meu Portifólio</a></li>
         </ol>
         <!-- Lista desordenada -->
         <ul type="square">
-          <li>Sobre</li>
-          <li>contato</li>
-          <li>Portifólio</li>
+          <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="igor_nunes13@icloud.com">email</a></li>
+          <li><a href="https://github.com/SerraZ3">Github</a></li>
         </ul>
       </nav>
-
-
-    <!-- cabeçalho. menu de navegaçao e outras informaçoes--> 
-     <header></header>
-
-    <!-- conteudo principal-->
-     <main>
-         <h1>  <nav>
-            <!-- Lista ordenada -->
-            <ol type="A">
-              <!-- List item = Item da lista -->
-              <li>Feijão</li>
-              <li>Arroz</li>
-              <li>Cebola</li>
-            </ol>
-            <!-- Lista desordenada -->
-            <ul type="square">
-              <li>Feijão</li>
-              <li>Arroz</li>
-              <li>Cebola</li>
-            </ul>
-          </nav>
+    </header>
+    <!-- Conteudo principal -->
     <main>
-        <!--Tag para titulos-->
-        <h1>Título1</h1>
-         <h2>Título2</h2>
-         <h3>Título2</h3>
-         <h4>Título4</h4>
-         <h5>Título5</h5>
-         <h6>Título26/h6>
-     </main>
+      <!-- ! Voltamos as 20h55 -->
+      <!-- Tags para títulos -->
+      <h1>Titulo 1</h1>
+      <h2>Titulo 2</h2>
+      <h3>Titulo 3</h3>
+      <h4>Titulo 4</h4>
+      <h5>Titulo 5</h5>
+      <h6>Titulo 6</h6>
+      <!-- Cria um paragrafo -->
+      <p>Paragráfo</p>
+      <!-- Tag para separar texto mas sem significado semântico -->
+      <span>Separa texto</span>
+      <p>
+       Primeiro site em html, exercicio DH!
+      </p>
+      <!-- Pula linha -->
+      <br />
+      <b>Transforma o texto em negrito</b>
+      <br />
+      <strong
+        >Transforma o texto em negrito porém com significado semântico. Diz que
+        o texto tem importância</strong
+      >
+      <br />
+      <i>Texto itálico</i>
+      <br />
+      <em>Texto itálico porém com significado semântico. Da uma ênfase</em>
+      <br />
+      <mark>Destaca o texto</mark>
+      <br />
+      <cite>Citação</cite>
+      <div>
+        <abbr title="Javascript">JS</abbr>
+      </div>
 
-<!-- rodapé da pagina-->
-   <footer></footer>
-</body>
+      <div>Divide o conteúdo. Não possui significado semântico</div>
+      <section>Divide o conteúdo, porém possui significado semântico</section>
+      <article>Fragmento de uma seção</article>
+
+      <section>
+        <h2 id="Velozes e Furisoso 9">Filme</h2>
+       <img src="./3385237.jpg" alt="filme Velozes e Furiosos 9" width="200">
+       <img src="./103233352.jpg" alt="eu" width="200">
+        <article>
+          <h3>Melhor Saga?</h3>
+          <p>com Certeza</p>
+        </article>
+        <article>
+          <h3>Disponivel Netflix?</h3>
+          <p>Sim!</p>
+        </article>
+      </section>
+      <section>
+        <h2>Celular iphone</h2>
+        <img src="./cllr.jpg" alt="IphoneXR" width="200">
+        <article>
+          <h3>Por que o celular é tão bom?</h3>
+          <p>Porque não trava</p>
+        </article>
+      </section>
+
+      <!-- Site de noticia -->
+      <section>
+        <h2>Esportes</h2>
+    <img src="./esportes.jpg" alt="Todos os esportes" width="200">
+        <article>
+          <h3>Futebol Final mundial corinthians 2012</h3>
+          <img src="./corinthians.jpg" alt="Mudial 2012" width="200">
+          <p>Futebol é top, vai Corinthains!</p>
+        </article>
+        <article>
+
+          <h3>Basquete</h3>
+          <img src="./basquete.jpg" alt="Jogo basquete " width="200">
+          <p>Basquete é também é top!</p>
+        </article>
+      </section>
+    </main>
+    <!-- Rodapé da página -->
+    <footer></footer>
+  </body>
 </html>
